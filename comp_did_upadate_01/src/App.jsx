@@ -20,8 +20,7 @@ const App = () => {
         setState(res);
       })
       .catch(err => console.error("Error fetching data:", err));
-  }, [cat]); // triggers fetch on cat change
-
+  }, [cat]); 
   return (
     <div className="wrapper">
       <div className="app-container">
